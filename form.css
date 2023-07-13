@@ -1,0 +1,43 @@
+.form-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(green-lake-mountain-wallpaper-2560x1080_14.jpg);
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    /* -webkit-backdrop-filter: blur(8px); */
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    background-color: rgba(228, 228, 228, 0.30);
+}
+.input:focus{
+    outline: none;
+    color: white;
+}
+.input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid purple;
+    margin-top: 40px;
+}
+.input-title{
+    font-size: 30px;
+    color: rgb(82, 79, 79);
+}
+.btn{
+    width: 80px;
+    margin: 10px auto;
+    background-color: purple;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
